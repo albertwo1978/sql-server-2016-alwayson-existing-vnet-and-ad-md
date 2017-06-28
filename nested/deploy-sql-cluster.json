@@ -8,6 +8,9 @@
 		"domainName": {
 			"type": "string"
 		},
+		"domainNetbiosName": {
+			"type": "string"
+		},
 		"dnsServerName": {
 			"type": "string"
 		},
@@ -392,6 +395,9 @@
 					},
 					"domainName": {
 						"value": "[parameters('domainName')]"
+					},
+					"domainNetbiosName": {
+						"value": "[parameters('domainNetbiosName')]"
 					},
 					"namePrefix": {
 						"value": "[parameters('namePrefix')]"
